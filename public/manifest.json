@@ -1,0 +1,60 @@
+{
+  "name": "Winner Evolux System",
+  "short_name": "Winner Evolux",
+  "description": "La plataforma todo-en-uno para profesores de fitness. Entrenamiento, nutrición, coaching y comunidad.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff4d00",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23ff4d00' width='192' height='192'/><text x='96' y='120' font-size='120' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>W</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23ff4d00' width='512' height='512'/><text x='256' y='340' font-size='320' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>W</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "sports"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230a0a0a' width='540' height='720'/><rect fill='%23ff4d00' x='20' y='40' width='500' height='100' rx='10'/><text x='270' y='100' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>Winner Evolux</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Accede a tu dashboard de coaching",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23ff4d00' width='192' height='192'/><text x='96' y='120' font-size='120' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>W</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
